@@ -22,6 +22,10 @@ html, body {
 .nav-link:hover {
     color: #A5A5A5;
 }
+.nav-link:visited{
+    color: #F2F2F2;
+}
+
 .padding {
     padding-bottom: 1rem;
     padding-top: 1rem;
@@ -47,4 +51,10 @@ html, body {
 footer {
     background-color: #313131;
     color: #F2F2F2;
+}
+
+@media (min-width: 768px) {
+    .navbar {
+        position: static;
+    }
 }
